@@ -16,5 +16,5 @@ struct SeasonListView: View {
 }
 
 #Preview {
-    SeasonListView
+    SeasonListView()
 }

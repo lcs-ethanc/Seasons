@@ -9,13 +9,13 @@ import SwiftUI
 
 struct SeasonView: View {
     
-    let providedSeason: Seasons
-
+    let providedSeason: Season
+    
     var body: some View {
         Text ("Hello World")
         
-            }
     }
+}
 
 #Preview {
     SeasonView(providedSeason: spring)
