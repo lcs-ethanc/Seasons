@@ -12,11 +12,21 @@ struct SeasonView: View {
     let providedSeason: Season
     
     var body: some View {
-        Text ("Hello World")
-        
+        HStack(alignment: .lastTextBaseline) {
+            VStack(alignment: .leading) {
+
+                Text(providedSeason.seasonName)
+                    .font(.system(.largeTitle,  weight: .thin))
+                Text(providedSeason.seasonDate)
+                Text(providedSeason.seasonInfo)
+
+                
+            }
+            
+            
+        }
     }
 }
-
 #Preview {
     SeasonView(providedSeason: spring)
 }
