@@ -14,12 +14,14 @@ struct SeasonView: View {
     var body: some View {
         HStack(alignment: .lastTextBaseline) {
             VStack(alignment: .leading) {
-                HStack{
+                HStack(alignment: .bottom){
                 Text(providedSeason.seasonName)
                     .font(.system(.largeTitle,  weight: .thin))
+  
                 Image(providedSeason.seasonImage)
                     .resizable()
                     .frame(width: 50,height: 50)
+                    .padding(.trailing,60)
                 }
    
                
