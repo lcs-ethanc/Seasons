@@ -23,3 +23,7 @@ let summer = Season(seasonName: "Summer", seasonInfo: "Summer is the season of w
 let autumn = Season(seasonName: "Autumn", seasonInfo: "Autumn is the season of change and renewal.", seasonDate: "September 21 - October 19",seasonImage: "Autumn")
 
 let winter = Season(seasonName: "Winter", seasonInfo: "Winter is the season of cold and darkness.", seasonDate: "November 21 - December 19", seasonImage: "Winter")
+
+
+//array to hold all instances
+let seasons = [spring, summer, autumn, winter]

@@ -17,7 +17,6 @@ struct SeasonListView: View {
             SeasonView(providedSeason: autumn)
             SeasonView(providedSeason: winter)
         }
-      Text("Hello World")
     }
 }
 
