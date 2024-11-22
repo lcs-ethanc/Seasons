@@ -11,11 +11,9 @@ struct SeasonListView: View {
     
 
     var body: some View {
-        List{
-            SeasonView(providedSeason: spring)
-            SeasonView(providedSeason: summer)
-            SeasonView(providedSeason: autumn)
-            SeasonView(providedSeason: winter)
+        List(seasons) { currentSeason in
+            SeasonView(providedSeason: currentSeason)
+
         }
     }
 }

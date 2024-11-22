@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-struct Season {
+struct Season: Identifiable {
+    let id = UUID()
     let seasonName: String
     let seasonInfo: String
     let seasonDate: String
